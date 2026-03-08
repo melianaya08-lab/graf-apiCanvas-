@@ -29,7 +29,7 @@ function dibujar() {
 
     //Lineas
     // Triángulo relleno
-    /*ctx.beginPath();
+    ctx.beginPath();
     ctx.moveTo(25, 25);
     ctx.lineTo(105, 25);
     ctx.lineTo(25, 105);
@@ -41,10 +41,10 @@ function dibujar() {
     ctx.lineTo(125, 45);
     ctx.lineTo(45, 125);
     ctx.closePath();
-    ctx.stroke();*/
+    ctx.stroke();
 
     //Arcos
-    for (let i = 0; i < 4; i++) {
+    /*for (let i = 0; i < 4; i++) {
       for (let j = 0; j < 3; j++) {
         ctx.beginPath();
         const x = 25 + j * 50; // Coordenada x
@@ -62,7 +62,7 @@ function dibujar() {
           ctx.stroke();
         }
       }
-    }
+    }*/
 
     // Curvas de Bézier y cuadráticas
     /*ctx.beginPath();
