@@ -65,7 +65,7 @@ function dibujar() {
     }*/
 
     // Curvas de Bézier y cuadráticas
-    /*ctx.beginPath();
+    ctx.beginPath();
     ctx.moveTo(75, 40);
     ctx.bezierCurveTo(75, 37, 70, 25, 50, 25);
     ctx.bezierCurveTo(20, 25, 20, 62.5, 20, 62.5);
@@ -73,9 +73,9 @@ function dibujar() {
     ctx.bezierCurveTo(110, 102, 130, 80, 130, 62.5);
     ctx.bezierCurveTo(130, 62.5, 130, 25, 100, 25);
     ctx.bezierCurveTo(85, 25, 75, 37, 75, 40);
-    ctx.fill();*/
+    ctx.fill();
 
-    //Combinacion de lineas y figuras
+    /*//Combinacion de lineas y figuras
     roundedRect(ctx, 12, 12, 150, 150, 15);
     roundedRect(ctx, 19, 19, 150, 150, 9);
     roundedRect(ctx, 53, 53, 49, 33, 10);
@@ -135,11 +135,11 @@ function dibujar() {
 
     ctx.beginPath();
     ctx.arc(89, 102, 2, 0, Math.PI * 2, true);
-    ctx.fill();
+    ctx.fill();*/
   }
 }
 
-// Una función auxiliar para dibujar un rectángulo con esquinas redondeadas.
+/*// Una función auxiliar para dibujar un rectángulo con esquinas redondeadas.
 
 function roundedRect(ctx, x, y, width, height, radius) {
   ctx.beginPath();
@@ -149,5 +149,5 @@ function roundedRect(ctx, x, y, width, height, radius) {
   ctx.arcTo(x + width, y, x + width - radius, y, radius);
   ctx.arcTo(x, y, x, y + radius, radius);
   ctx.stroke();
-}
+}*/
 
