@@ -10,14 +10,14 @@ function dibujar() {
     ctx.strokeRect(50, 50, 50, 50);*/
 
     //Triangulo
-    /*ctx.beginPath();
+    ctx.beginPath();
     ctx.moveTo(75, 50);
     ctx.lineTo(100, 75);
     ctx.lineTo(100, 25);
-    ctx.fill();*/
+    ctx.fill();
 
     //Happy Face
-    ctx.beginPath();
+    /*ctx.beginPath();
     ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // Círculo externo
     ctx.moveTo(110, 75);
     ctx.arc(75, 75, 35, 0, Math.PI, false); // Boca (en el sentido de las agujas del reloj)
@@ -25,7 +25,7 @@ function dibujar() {
     ctx.arc(60, 65, 5, 0, Math.PI * 2, true); // Ojo izquierdo
     ctx.moveTo(95, 65);
     ctx.arc(90, 65, 5, 0, Math.PI * 2, true); // Ojo derecho
-    ctx.stroke();
+    ctx.stroke();*/
 
     //Lineas
     // Triángulo relleno
